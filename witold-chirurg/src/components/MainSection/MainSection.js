@@ -60,6 +60,7 @@ const MainSection = (props) => {
         </p>
       </div>
     </div>
+
   )
 }
 
