@@ -1,0 +1,40 @@
+.img {
+  width: 50vw;
+}
+
+.container {
+  width: 100vw;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centeredText {
+  position: absolute;
+  top: 30%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  font-size: 36px;
+  color: black;
+  font-weight: 600;
+}
+
+.address {
+  color: rgb(77, 77, 77);
+  margin: 30px;
+  padding: 10px;
+}
+
+.secound {
+  display: flex;
+  justify-content: center;
+}
+
+.textRezerwacja {
+  color: rgb(77, 77, 77);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  /* margin: 30px; */
+  padding: 120px;
+}

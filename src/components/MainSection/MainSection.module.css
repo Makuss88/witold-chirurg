@@ -8,5 +8,9 @@
 }
 
 .logo {
-  width: 200px;
+  /* display: flex; */
+  position: fixed;
+  top: 10px;
+  width: 90vw;
+  z-index: -1;
 }
