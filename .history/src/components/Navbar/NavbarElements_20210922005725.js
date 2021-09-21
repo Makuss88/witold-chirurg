@@ -41,7 +41,7 @@ export const Nav = styled.nav`
   padding: 0.5rem calc((100vw - 1000px) / 2);
   z-index: 10;
   width: 100vw;
-  max-width: 100%;
+  max-width: 100%
 `;
 export const Bars = styled(FaBars)`
   display: none;

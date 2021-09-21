@@ -4,6 +4,7 @@
 
 .container {
   width: 100vw;
+  max-width: 100%;
   position: relative;
   text-align: center;
   color: white;
@@ -36,6 +37,6 @@
   display: flex;
   align-items: center;
   text-align: center;
-  margin: 30px;
+  /* margin: 30px; */
   padding: 120px;
 }

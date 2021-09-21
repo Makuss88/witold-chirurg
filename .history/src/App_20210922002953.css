@@ -1,4 +1,4 @@
-*, body {
+* {
   margin: 0px;
   padding: auto;
   box-sizing: border-box;
@@ -7,7 +7,6 @@
 .App {
   width: 100vw;
   height: auto;
-  max-width: 100%;
   text-align: center;
   line-height: 1.5;
   font-family: Verdana, Geneva, Tahoma, sans-serif;

@@ -7,7 +7,7 @@ import classes from './Footer.module.css';
 const Footer = (props) => {
   return (
     <section id="footer" className={classes.Footer}>
-      <div  className="grid">
+      <div class="grid">
         <div className={classes.column}>
           <ul className={classes.widget}>
             <li>
@@ -26,7 +26,7 @@ const Footer = (props) => {
         </div>
 
         <div className={classes.column}>
-          <h5 className="section-nav-title">TU BYLIŚMY</h5>
+          <h5 class="section-nav-title">TU BYLIŚMY</h5>
           <p>
             <img src="http://serwer1451444.home.pl/wp-content/uploads/2017/04/mapa-do-stopki.png" alt='logo' />
           </p>

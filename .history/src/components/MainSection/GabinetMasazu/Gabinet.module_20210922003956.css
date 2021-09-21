@@ -1,20 +1,19 @@
 .img {
-  width: 50vw;
+  /* width: 50vw; */
 }
 
 .container {
-  width: 100vw;
+  /* width: 100vw; */
   position: relative;
   text-align: center;
   color: white;
-  max-width: 100%;
 }
 
 .centeredText {
-  position: absolute;
+  /* position: absolute; */
   top: 30%;
   left: 60%;
-  transform: translate(-50%, -50%);
+  /* transform: translate(-50%, -50%); */
   font-size: 36px;
   color: black;
   font-weight: 600;
@@ -36,6 +35,6 @@
   display: flex;
   align-items: center;
   text-align: center;
-  margin: 30px;
+  /* margin: 30px; */
   padding: 120px;
 }
