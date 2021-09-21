@@ -1,49 +1,33 @@
-import { FaFacebook } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa";
-import { IconContext } from "react-icons";
+import { Nav, NavMenu, MenuSeparator, Logo, NavLink } from "./NavbarElements";
 
-import styled from "styled-components";
+import logo from '../../img/gabinet-usg-logo.png';
 
-import { Nav, NavLink, NavMenu, Bars, Button, ButtonMenu } from "./NavbarElements";
-
-import logo from '../../img/wazEskulapa.jpg';
-
-const Logo = styled.img`
-  width: 60px;
-`
-
-const Navbar = (props) => {
+const Navbar = () => {
 
   return (
     <Nav>
-      <NavLink to='/'>
-        <Logo src={logo} alt='' />
-      </NavLink>
-      <Bars />
+      <Logo src={logo} alt='' />
       <NavMenu>
         <NavLink to='/' exact activeStyle >
           STRONA GŁÓWNA
         </NavLink>
+        <MenuSeparator />
         <NavLink to='/gabinet-masazu' activeStyle >
           GABINET MASAŻU
         </NavLink>
+        <MenuSeparator />
         <NavLink to='/kim-jestesmy' activeStyle>
           KIM JESTEŚMY
         </NavLink>
+        <MenuSeparator />
         <NavLink to='/galery' activeStyle>
           GALERIA
         </NavLink >
+        <MenuSeparator />
         <NavLink to='/contact' activeStyle>
           KONTAKT
         </NavLink >
       </NavMenu>
-      <ButtonMenu>
-        <IconContext.Provider value={{ size: "2em" }}>
-          <Button onClick={() => { console.log('Facebook') }}><FaFacebook /></Button>
-          <Button onClick={() => { console.log('Insta') }}><FaInstagram /></Button>
-        </IconContext.Provider>
-      </ButtonMenu>
-
     </Nav >
   )
 }

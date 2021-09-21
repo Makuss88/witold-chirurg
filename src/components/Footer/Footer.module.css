@@ -1,10 +1,15 @@
 .Footer {
-  background-color: #27774f;
+  background-color: #252525;
   min-height: 10vh;
   display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  justify-content: end;
+  /* flex-direction: column; */
+  /* align-items: flex-end; */
+  /* justify-content: end; */
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.widget {
+  font-size: 12px;
+  list-style-type: none;
 }

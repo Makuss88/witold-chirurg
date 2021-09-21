@@ -1,0 +1,33 @@
+.table {
+  color: rgba(0, 0, 0, 0.55);
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+}
+
+.excerpt {
+  width: 300px;
+  display: inline-block;
+  text-align: left;
+}
+
+.wrapper {
+  padding-top: 60px;
+}
+
+.healthMenu {
+  font-size: 26px;
+  font-weight: bold;
+  padding-bottom: 60px;
+}
+
+.healthMenu p {
+  font-size: 12px;
+  color: #606060;
+}
+
+.header {
+  font-size: 20px;
+}
