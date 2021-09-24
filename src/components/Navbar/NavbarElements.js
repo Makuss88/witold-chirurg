@@ -70,6 +70,5 @@ export const MenuSeparator = styled.li`
   width: 1px;
   height: 24px;
   margin-top: 2px;
-  // margin-left: -1px;
   z-index: 1;
 `

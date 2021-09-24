@@ -1,7 +1,7 @@
 .scrollToTop {
   cursor: pointer;
   position: fixed;
-  bottom: 12px;
+  bottom: 40px;
   left: 85%;
   width: 40px;
   height: 40px;
@@ -12,12 +12,12 @@
 }
 
 .icon {
-  margin-top: 10px;
+  /* margin-top: 1px; */
   animation: scrollTop 0.5s alternate ease infinite;
 }
 @keyframes scrollTop {
   from {
-    transform: translateY(2px);
+    transform: translateY(-6px);
   }
   to {
     transform: translateY(-1px);
