@@ -7,43 +7,44 @@ const HealthComponent = () => {
     <div className={classes.wrapper}>
       <div className={classes.healthMenu}>
         ZDROWIE, URODA & RELAKS <br />
-        <p>Poniżej przedstawiamy przykładowe zastosowanie naszych masaży.</p>
+        <p>Poniżej przedstawiamy przykładowe zastosowanie naszych zabiegów.</p>
       </div>
       <div className={classes.flex}>
         <div className={classes.excerpt}>
           <h5 className={classes.header}>Dla ZDROWIA: </h5>
           <ul className={classes.table}>
-            <li>bóle pleców, karku</li>
-            <li>zmęczenie,</li>
-            <li>rewitalizacja po porodzie</li>
-            <li>sportowe</li>
-            <li>oczyszczające</li>
-            <li>dla kobiet ciężarnych</li>
+            <li> USG tętnic szyjnych</li>
+            <li> USG serca</li>
+            <li> USG stawów biodrowych</li>
+            <li> USG piersi (usg sutków)</li>
+            <li> USG ortopedyczne (mięśnie, stawy, ścięgna)</li>
+            <li> USG układu moczowego</li>
+            <li> USG tarczycy.bóle pleców, karku</li>
           </ul>
         </div>
 
         <div className={classes.excerpt}>
           <h5 className={classes.header}>Dla URODY: </h5>
           <ul className={classes.table}>
-            <li>antycelluitowe</li>
-            <li>wspomagające odchudzanie</li>
-            <li><strong>Japoński Masaż Twarzy</strong></li>
-            <li>modelujące,</li>
+            <li>USG piersi </li>
+            <li>USG brzucha</li>
+            <li><strong>USG bioderek</strong></li>
+            <li>analiza USG całego ciała</li>
           </ul>
         </div>
 
         <div className={classes.excerpt}>
           <h5 className={classes.header}>Dla RELAKSU: </h5>
           <ul className={classes.table}>
-            <li>masaż głowy</li>
-            <li><strong>Japoński Masaż Twarzy</strong></li>
-            <li>antystresowe,</li>
+            <li>Tarczyca</li>
+            <li><strong>Moszny i jąder</strong></li>
+            <li>Staw barkowy i inne stawy -TYLKO ORTOPEDA</li>
             <li>Idealne na bezsenność</li>
-            <li>ciepłym olejem</li>
+            <li>Staw kolanowymasaż głowy</li>
           </ul>
         </div>
       </div>
-    </div>
+    </div >
   )
 }
 

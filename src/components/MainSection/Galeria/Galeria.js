@@ -1,27 +1,12 @@
 import React from 'react'
 
+
+import ChangeImage from '../ChangeImage/ChangeImage';
 const Galeria = () => {
   return (
     <div>
-      ppusta
-      ppusta      ppusta
-      ppusta
-      ppusta
-      ppusta
-      ppusta
-      ppusta
-      ppusta
-      ppusta
-      ppusta
-      ppusta
-      ppusta
-      ppusta
-      ppusta
-      ppusta
-      ppusta
-      ppusta
-      ppusta
-      ppusta
+      <div> Nasze miejsca do pracy </div>
+      <ChangeImage />
 
     </div>
   )

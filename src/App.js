@@ -1,7 +1,7 @@
 import React from 'react';
 import { Switch, Route } from "react-router-dom";
 
-import GabinetMasazu from "./components/MainSection/GabinetMasazu/GabinetMasazu";
+import GabinetUSG from "./components/MainSection/GabinetUSG/GabinetUSG";
 import KimJestesmy from "./components/MainSection/KimJestesmy/KimJestesmy";
 import Galeria from './components/MainSection/Galeria/Galeria';
 import Contact from "./components/MainSection/Contact/Contact";
@@ -16,7 +16,7 @@ const App = () => {
     <div className="App">
       <Navbar />
       <Switch>
-        <Route path="/gabinet-masazu" component={GabinetMasazu} />
+        <Route path="/gabinet-usg" component={GabinetUSG} />
         <Route path="/kim-jestesmy" component={KimJestesmy} />,
         <Route path="/galery" component={Galeria} />
         <Route path="/contact" component={Contact} />

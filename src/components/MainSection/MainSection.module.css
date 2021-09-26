@@ -1,5 +1,7 @@
 .MainSection {
   min-height: 80vh;
+  position: relative;
+  top: -100px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -7,10 +9,10 @@
   font-size: calc(20px + 2vmin);
 }
 
-.logo {
-  /* display: flex; */
-  position: fixed;
-  top: 10px;
-  width: 90vw;
+.bg {
+  display: flex;
+  top: 0px;
+  width: 100vw;
+  max-width: 100%;
   z-index: -1;
 }

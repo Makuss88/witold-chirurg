@@ -1,19 +1,34 @@
-import { Nav, NavMenu, MenuSeparator, Logo, NavLink } from "./NavbarElements";
+import React, { useState } from 'react';
+import { MenuSeparator, NavLink } from "./NavbarElements";
 
-import logo from '../../img/gabinet-usg-logo.png';
+import classes from './Navbar.module.css'
+
+import logo from '../../assets/image/logo2.png';
 
 const Navbar = () => {
 
+  const [navbar, setNavbar] = useState(false);
+
+  const changeBackground = () => {
+    if (window.scrollY > 279) {
+      setNavbar(true);
+    } else {
+      setNavbar(false);
+    }
+  }
+
+  window.addEventListener('scroll', changeBackground);
+
   return (
-    <Nav>
-      <Logo src={logo} alt='' />
-      <NavMenu>
-        <NavLink to='/' exact  >
+    <nav className={navbar ? classes.nav + " " + classes.active : classes.nav} >
+      <img className={navbar ? classes.logo + " " + classes.active : classes.logo} src={logo} alt='' />
+      <div className={classes.navMenu}>
+        <NavLink to='/' exact >
           STRONA GŁÓWNA
         </NavLink>
         <MenuSeparator />
-        <NavLink to='/gabinet-masazu'  >
-          GABINET MASAŻU
+        <NavLink to='/gabinet-usg'  >
+          GABINET USG
         </NavLink>
         <MenuSeparator />
         <NavLink to='/kim-jestesmy' >
@@ -27,8 +42,8 @@ const Navbar = () => {
         <NavLink to='/contact' >
           KONTAKT
         </NavLink >
-      </NavMenu>
-    </Nav >
+      </div>
+    </nav >
   )
 }
 

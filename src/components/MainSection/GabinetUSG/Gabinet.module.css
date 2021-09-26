@@ -2,40 +2,51 @@
   width: 50vw;
 }
 
+.bg {
+  max-width: 100%;
+}
+
 .container {
   width: 100vw;
+  max-width: 100%;
   position: relative;
+  top: -100px;
   text-align: center;
   color: white;
-  max-width: 100%;
+  padding-bottom: 50px;
 }
 
 .centeredText {
   position: absolute;
-  top: 30%;
-  left: 60%;
+  top: 50%;
+  left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 36px;
   color: black;
-  font-weight: 600;
+  font-size: 50px;
+  font-weight: bold;
 }
 
 .address {
   color: rgb(77, 77, 77);
   margin: 30px;
-  padding: 10px;
+  padding-top: 60px;
 }
 
-.secound {
+.reservate {
   display: flex;
   justify-content: center;
 }
 
-.textRezerwacja {
+.textReservate {
   color: rgb(77, 77, 77);
   display: flex;
   align-items: center;
   text-align: center;
   margin: 30px;
   padding: 120px;
+}
+
+.imageText {
+  position: relative;
+  text-align: center;
 }
