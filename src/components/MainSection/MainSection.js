@@ -9,47 +9,48 @@ import ScrollToTop from "../ScrollToTop/ScrollToTop";
 
 const MainSection = (props) => {
   return (
-    <div className={classes.MainSection}>
+    <div>
       <ScrollToTop />
-      <img src={bg} className={classes.bg} alt="background" />
-      {/* <img src={logo} alt="loading..." /> infresting :) */}
-      <div>
-        <p>
-          dupadupadupadupadupadupadupadupadupadupadupa
-          dupadupadupadupadupadupadupadupadupadupadupa
-          dupadupadupadupadupadupadupadupadupadupadupa
-          dupadupadupadupadupadupadupadupadupadupadupa
-          dupadupadupadupadupadupadupadupadupadupadupa
-          dupadupadupadupadupadupadupadupadupadupadupa
-          dupadupadupadupadupadupadupadupadupadupadupa
+      <div className={classes.MainSection}>
+        <img src={bg} className={classes.bg} alt="background" />
+        {/* <img src={logo} alt="loading..." /> infresting :) */}
+        <div>
+          <p>
+            dupadupadupadupadupadupadupadupadupadupadupa
+            dupadupadupadupadupadupadupadupadupadupadupa
+            dupadupadupadupadupadupadupadupadupadupadupa
+            dupadupadupadupadupadupadupadupadupadupadupa
+            dupadupadupadupadupadupadupadupadupadupadupa
+            dupadupadupadupadupadupadupadupadupadupadupa
+            dupadupadupadupadupadupadupadupadupadupadupa
 
-          dupadupadupadupadupadupadupadupadupadupadupa
-        </p>
-        <p>
-          dupadupadupadupadupadupadupadupadupadupadupa
-          dupadupadupadupadupadupadupadupadupadupadupa
-          dupadupadupadupadupadupadupadupadupadupadupa
-          dupadupadupadupadupadupadupadupadupadupadupa
-          dupadupadupadupadupadupadupadupadupadupadupa
-          dupadupadupadupadupadupadupadupadupadupadupa
-          dupadupadupadupadupadupadupadupadupadupadupa
+            dupadupadupadupadupadupadupadupadupadupadupa
+          </p>
+          <p>
+            dupadupadupadupadupadupadupadupadupadupadupa
+            dupadupadupadupadupadupadupadupadupadupadupa
+            dupadupadupadupadupadupadupadupadupadupadupa
+            dupadupadupadupadupadupadupadupadupadupadupa
+            dupadupadupadupadupadupadupadupadupadupadupa
+            dupadupadupadupadupadupadupadupadupadupadupa
+            dupadupadupadupadupadupadupadupadupadupadupa
 
-          dupadupadupadupadupadupadupadupadupadupadupa
-        </p>
-        <p>
-          dupadupadupadupadupadupadupadupadupadupadupa
-          dupadupadupadupadupadupadupadupadupadupadupa
-          dupadupadupadupadupadupadupadupadupadupadupa
-          dupadupadupadupadupadupadupadupadupadupadupa
-          dupadupadupadupadupadupadupadupadupadupadupa
-          dupadupadupadupadupadupadupadupadupadupadupa
-          dupadupadupadupadupadupadupadupadupadupadupa
+            dupadupadupadupadupadupadupadupadupadupadupa
+          </p>
+          <p>
+            dupadupadupadupadupadupadupadupadupadupadupa
+            dupadupadupadupadupadupadupadupadupadupadupa
+            dupadupadupadupadupadupadupadupadupadupadupa
+            dupadupadupadupadupadupadupadupadupadupadupa
+            dupadupadupadupadupadupadupadupadupadupadupa
+            dupadupadupadupadupadupadupadupadupadupadupa
+            dupadupadupadupadupadupadupadupadupadupadupa
 
-          dupadupadupadupadupadupadupadupadupadupadupa
-        </p>
+            dupadupadupadupadupadupadupadupadupadupadupa
+          </p>
+        </div>
       </div>
     </div>
-
   )
 }
 

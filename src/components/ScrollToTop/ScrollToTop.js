@@ -7,7 +7,7 @@ const ScrollToTop = () => {
   const [visible, setVisiblity] = useState(false);
 
   useEffect(() => {
-    if (pageYOffset > 200) {
+    if (pageYOffset > 300) {
       setVisiblity(true);
     } else {
       setVisiblity(false);

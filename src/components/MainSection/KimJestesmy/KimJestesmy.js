@@ -1,18 +1,11 @@
 import React from "react";
 
+
 const KimJestesmy = (props) => {
 
   return (
     <div>
-      <div>Kim jesteśmy</div>
-      <div>Kim jesteśmy</div>
-      <div>Kim jesteśmy</div>
-      <div>Kim jesteśmy</div>
-      <div>Kim jesteśmy</div>
-      <div>Kim jesteśmy</div>
-      <div>Kim jesteśmy</div>
-      <div>Kim jesteśmy</div>
-      <div>Kim jesteśmy</div>
+      kim jesteśmy
     </div>
   )
 };

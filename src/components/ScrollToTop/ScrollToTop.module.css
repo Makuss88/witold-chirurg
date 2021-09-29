@@ -12,14 +12,13 @@
 }
 
 .icon {
-  /* margin-top: 1px; */
   animation: scrollTop 0.5s alternate ease infinite;
 }
 @keyframes scrollTop {
   from {
-    transform: translateY(-6px);
+    transform: translateY(6px);
   }
   to {
-    transform: translateY(-1px);
+    transform: translateY(12px);
   }
 }

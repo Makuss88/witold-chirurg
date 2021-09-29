@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { MenuSeparator, NavLink } from "./NavbarElements";
+import { MenuSeparator, NavLink, Nav, NavMenu } from "./NavbarElements";
 
 import classes from './Navbar.module.css'
 
@@ -12,7 +12,7 @@ const Navbar = () => {
   const changeBackground = () => {
     if (window.scrollY > 279) {
       setNavbar(true);
-    } else {
+    } else if (window.scrollY < 260) {
       setNavbar(false);
     }
   }
@@ -20,9 +20,9 @@ const Navbar = () => {
   window.addEventListener('scroll', changeBackground);
 
   return (
-    <nav className={navbar ? classes.nav + " " + classes.active : classes.nav} >
+    <Nav className={navbar ? classes.nav + " " + classes.active : classes.nav} >
       <img className={navbar ? classes.logo + " " + classes.active : classes.logo} src={logo} alt='' />
-      <div className={classes.navMenu}>
+      <NavMenu>
         <NavLink to='/' exact >
           STRONA GŁÓWNA
         </NavLink>
@@ -42,8 +42,8 @@ const Navbar = () => {
         <NavLink to='/contact' >
           KONTAKT
         </NavLink >
-      </div>
-    </nav >
+      </NavMenu>
+    </Nav >
   )
 }
 
