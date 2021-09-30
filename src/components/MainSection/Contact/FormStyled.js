@@ -26,10 +26,12 @@ export const Styles = styled.div`
   }
  
   input {
-    border: 1px solid #d9d9d9;
+    border: 2px solid black;
     border-radius: 4px;
     box-sizing: border-box;
-    padding: 10px;
+    padding: 10px;  
+    display: block;
+    font-size: 14px;
   }
  
   label {
@@ -41,12 +43,9 @@ export const Styles = styled.div`
     font-size: 14px;
     font-weight: 500;
   }
- 
-  .error {
+
+  p {
     color: red;
-    font-family: sans-serif;
-    font-size: 12px;
-    height: 30px;
   }
  
   .submitButton {
@@ -67,7 +66,3 @@ export const FlexRow = styled.div`
   flex-direction: row;
   justify-content: space-between;
 `;
-
-export const Error = ({ errors }) => {
-  return <div className={"error"}>{errors ? errors.message : " "}</div>;
-}

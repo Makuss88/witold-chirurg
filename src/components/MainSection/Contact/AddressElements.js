@@ -39,21 +39,21 @@ export const Circle = styled.div`
 export const MapsLogo = styled(Googlemaps)` 
   width: 30px;
   height: 30px;
-  z-index: 100;
+  z-index: 10;
   color: #f2f2f2;
 `;
 
 export const PhoneLogo = styled(TelephoneFill)` 
   width: 30px;
   height: 30px;
-  z-index: 100;
+  z-index: 10;
   color: #f2f2f2;
 `;
 
 export const EmailLogo = styled(EmailOutline)` 
   width: 30px;
   height: 30px;
-  z-index: 100;
+  z-index: 10;
   color: #f2f2f2;
 `;
 
