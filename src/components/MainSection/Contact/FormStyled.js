@@ -21,7 +21,7 @@ export const Styles = styled.div`
     flex-direction: column;
     justify-content: space-around;
     margin: 0 auto;
-    max-width: 500px;
+    max-width: 700px;
     padding: 30px 50px;
   }
  
@@ -59,10 +59,21 @@ export const Styles = styled.div`
 export const FlexColumn = styled.div`
   display: flex;
   flex-direction: column;
+  /* width: 100%; */
 `;
 
 export const FlexRow = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  
+  div:nth-child(4n+1){
+    padding-right: 10px;
+    width: 30%;
+  }
+
+  div:nth-child(4n+2){
+    padding-left: 10px;
+    width: 70%;
+  }
 `;
