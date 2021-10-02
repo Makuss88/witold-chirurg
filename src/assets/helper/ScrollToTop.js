@@ -1,6 +1,33 @@
 import React, { useEffect, useState } from "react";
 import { useWindowScroll } from "react-use";
-import classes from './ScrollToTop.module.css';
+import styled, { keyframes } from 'styled-components';
+
+const ScrollTop = styled.div`
+  cursor: pointer;
+  position: fixed;
+  bottom: 40px;
+  left: 85%;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background: #8b0000;
+  color: #fff;
+  z-index: 99;
+`;
+
+const rotate = keyframes`
+  from {
+    transform: translateY(6px);
+  }
+  
+  to {
+    transform: translateY(14px);
+  }
+`;
+
+const Icon = styled.svg`
+  animation: ${rotate} 0.6s alternate ease infinite;
+`;
 
 const ScrollToTop = () => {
   const { y: pageYOffset } = useWindowScroll();
@@ -21,18 +48,15 @@ const ScrollToTop = () => {
   }
 
   return (
-    <div
-      className={classes.scrollToTop}
-      onClick={scrollToTop}
-    >
-      <svg className={classes.icon}
+    <ScrollTop onClick={scrollToTop}>
+      <Icon
         xmlns="http://www.w3.org/2000/svg"
         width="24"
         height="24"
         viewBox="0 4 24 24">
         <path fill="white" d="M0 16.67l2.829 2.83 9.175-9.339 9.167 9.339 2.829-2.83-11.996-12.17z" />
-      </svg>
-    </div >
+      </Icon>
+    </ScrollTop >
   );
 };
 

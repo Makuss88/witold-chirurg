@@ -1,6 +1,5 @@
 .table {
   list-style: circle;
-  color: rgba(0, 0, 0, 0.55);
 }
 
 .flex {
@@ -16,6 +15,7 @@
 
 .wrapper {
   padding-top: 60px;
+  color: #606060;
 }
 
 .healthMenu {
@@ -26,7 +26,6 @@
 
 .healthMenu p {
   font-size: 24px;
-  color: #606060;
 }
 
 .header {

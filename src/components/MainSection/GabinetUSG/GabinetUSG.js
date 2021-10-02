@@ -1,24 +1,17 @@
 import React from "react";
 
-import HealthComponent from "./HealthComponent";
+import ScrollToTop from '../../../assets/helper/ScrollToTop';
+import gabinet from '../../../assets/image/gabinet2.jpg'
 
-import ImageBG from "../../../assets/helper/ImageBG";
+import HealthComponent from "./HealthComponent";
 
 import classes from './Gabinet.module.css';
 
-import gabinet from '../../../assets/image/gabinet2.jpg';
-import ScrollToTop from '../../ScrollToTop/ScrollToTop';
-
 const GabinetUSG = () => {
-
   return (
     <div>
       <ScrollToTop />
       <div className={classes.container}>
-        <div className={classes.imageText}>
-          <ImageBG />
-          <div className={classes.centeredText}>GABINET USG</div>
-        </div>
         <div>
           <div className={classes.address}>
             <h4>Adres:</h4>

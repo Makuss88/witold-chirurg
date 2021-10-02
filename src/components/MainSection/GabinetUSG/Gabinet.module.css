@@ -3,23 +3,10 @@
 }
 
 .container {
-  width: 100vw;
   max-width: 100%;
   position: relative;
-  top: -100px;
   text-align: center;
-  color: white;
   padding-bottom: 50px;
-}
-
-.centeredText {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: black;
-  font-size: 50px;
-  font-weight: bold;
 }
 
 .address {
@@ -27,7 +14,7 @@
   flex-direction: column;
   color: rgb(77, 77, 77);
   margin: 30px;
-  padding-top: 60px;
+  padding-top: 20px;
 }
 
 .reservate {
@@ -43,9 +30,4 @@
   text-align: center;
   margin: 30px;
   padding: 120px;
-}
-
-.imageText {
-  position: relative;
-  text-align: center;
 }

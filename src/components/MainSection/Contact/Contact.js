@@ -1,19 +1,14 @@
 import React from "react";
-import ImageBG from "../../../assets/helper/ImageBG";
 import MyMap from "./Maps";
 import Address from './Address';
-import ScrollToTop from '../../ScrollToTop/ScrollToTop';
+import ScrollToTop from '../../../assets/helper/ScrollToTop';
 
-const Contact = (props) => {
-
-  return (
-    <div>
-      <ScrollToTop />
-      <ImageBG />
-      <MyMap />
-      <Address />
-    </div>
-  )
-};
+const Contact = () => (
+  <div>
+    <ScrollToTop />
+    <MyMap />
+    <Address />
+  </div>
+)
 
 export default Contact;

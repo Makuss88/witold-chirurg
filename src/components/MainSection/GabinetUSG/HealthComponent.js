@@ -16,8 +16,8 @@ const HealthComponent = () => {
             <li> USG tętnic szyjnych</li>
             <li> USG serca</li>
             <li> USG stawów biodrowych</li>
-            <li> USG piersi (usg sutków)</li>
-            <li> USG ortopedyczne (mięśnie, stawy, ścięgna)</li>
+            <li> USG piersi </li>
+            <li> USG ortopedyczne</li>
             <li> USG układu moczowego</li>
             <li> USG tarczycy.bóle pleców, karku</li>
           </ul>
@@ -38,7 +38,7 @@ const HealthComponent = () => {
           <ul className={classes.table}>
             <li>Tarczyca</li>
             <li><strong>Moszny i jąder</strong></li>
-            <li>Staw barkowy i inne stawy -TYLKO ORTOPEDA</li>
+            <li>Staw barkowy i inne stawy</li>
             <li>Idealne na bezsenność</li>
             <li>Staw kolanowymasaż głowy</li>
           </ul>

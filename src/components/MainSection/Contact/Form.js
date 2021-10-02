@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import { Styles, FlexRow, FlexColumn } from "./FormStyled";
 import { useForm } from "react-hook-form";
-import { fromValidation } from '../../../Validation/FormValidations';
+import { checkForm } from '../../../Validation/FormValidations';
 
 const Form = () => {
 
-  const dupa = async (event) => {
+  const checkFormHandler = async (event) => {
     event.preventDefault();
     let form = {
       firstName: event.target[0].value,
@@ -14,7 +14,7 @@ const Form = () => {
       text: event.target[3].value,
     }
     console.log(form);
-    const isValid = await fromValidation.isValid(form)
+    const isValid = await checkForm.isValid(form)
     console.log(isValid)
   }
 
@@ -30,7 +30,7 @@ const Form = () => {
 
   return (
     <Styles>
-      <form onSubmit={dupa}>
+      <form onSubmit={checkFormHandler}>
         {formValidation ? <h1>E-MAIL WYSŁANY!</h1> : <h1>Zostaw wiadomość</h1>}
         <FlexRow>
           <FlexColumn>

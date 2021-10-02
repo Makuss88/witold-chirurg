@@ -1,5 +1,11 @@
 import React, { useState } from 'react';
-import { MenuSeparator, NavLink, Nav, NavMenu } from "./NavbarElements";
+import {
+  MenuSeparator,
+  NavLink,
+  NavMenu,
+  NavStyles,
+  Logo
+} from "./NavbarElements";
 
 import classes from './Navbar.module.css'
 
@@ -20,8 +26,12 @@ const Navbar = () => {
   window.addEventListener('scroll', changeBackground);
 
   return (
-    <Nav className={navbar ? classes.nav + " " + classes.active : classes.nav} >
-      <img className={navbar ? classes.logo + " " + classes.active : classes.logo} src={logo} alt='' />
+    <NavStyles
+      fontSize={navbar ? "1em" : "1.4em"}
+      height={navbar ? '100px' : '140px'}
+      bg={navbar ? "linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(170, 170, 170) 100%)" : "rgba(128, 128, 128, 0.637)"}
+    >
+      <Logo height={navbar ? '60px' : '90px'} src={logo} alt='' />
       <NavMenu>
         <NavLink to='/' exact >
           STRONA GŁÓWNA
@@ -43,7 +53,7 @@ const Navbar = () => {
           KONTAKT
         </NavLink >
       </NavMenu>
-    </Nav >
+    </NavStyles>
   )
 }
 

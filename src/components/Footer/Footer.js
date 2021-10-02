@@ -6,19 +6,15 @@ import Address from "./Address";
 import classes from './Footer.module.css';
 import PolandMaps from "./PolandMaps";
 
-const Footer = (props) => {
+const Footer = () => {
   return (
-
-    <div>
-      {/* <Maps /> */}
-      <section id="footer" className={classes.Footer}>
-        <Address />
-        <PolandMaps />
-        <div>
-          FORMULARZ
-        </div>
-      </section>
-    </div>
+    <section id="footer" className={classes.Footer}>
+      <Address />
+      <PolandMaps />
+      <div>
+        FORMULARZ
+      </div>
+    </section>
   )
 }
 

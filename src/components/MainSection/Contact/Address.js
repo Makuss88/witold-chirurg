@@ -11,7 +11,7 @@ import {
   PhoneLogo,
   EmailLogo,
   Flex,
-} from './AddressElements';
+} from './AddressStyled';
 
 const Address = () => {
   return (

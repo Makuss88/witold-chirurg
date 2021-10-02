@@ -1,19 +1,14 @@
 import React from "react";
 
-import bg from '../../assets/image/bg.jpg';
-
 import classes from './MainSection.module.css';
 
-import ScrollToTop from "../ScrollToTop/ScrollToTop";
-// import ChangeImage from "./ChangeImage/ChangeImage";
+import ScrollToTop from "../../assets/helper/ScrollToTop";
 
 const MainSection = (props) => {
   return (
     <div>
       <ScrollToTop />
       <div className={classes.MainSection}>
-        <img src={bg} className={classes.bg} alt="background" />
-        {/* <img src={logo} alt="loading..." /> infresting :) */}
         <div>
           <p>
             dupadupadupadupadupadupadupadupadupadupadupa

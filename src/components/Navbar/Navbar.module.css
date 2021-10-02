@@ -2,6 +2,7 @@
   padding-right: 100px;
   height: 60px;
 }
+
 .logo.active {
   padding-right: 100px;
   height: 40px;
@@ -32,21 +33,5 @@
     rgb(170, 170, 170) 100%
   );
   font-size: 1em;
-  color: black;
   height: 80px;
-}
-
-.navMenu {
-  display: flex;
-  align-items: center;
-  margin-right: -24px;
-}
-
-.menuSeparator {
-  list-style-type: none;
-  background-color: #e8e8e8;
-  width: 1px;
-  height: 24px;
-  margin-top: 2px;
-  z-index: 1;
 }

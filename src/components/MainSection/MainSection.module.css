@@ -1,18 +1,9 @@
 .MainSection {
   min-height: 80vh;
   position: relative;
-  top: -100px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(20px + 2vmin);
-}
-
-.bg {
-  display: flex;
-  top: 0px;
-  width: 100vw;
-  max-width: 100%;
-  z-index: -1;
 }

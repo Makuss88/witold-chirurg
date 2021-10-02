@@ -30,8 +30,8 @@ export const MenuSeparator = styled.li`
   z-index: 1;
 `;
 
-export const Nav = styled.nav`
-  background: rgba(128, 128, 128, 0.637);
+export const NavStyles = styled.div`
+  background: ${props => props.bg};;
   position: fixed;
   top: 0;
   left: 0;
@@ -39,17 +39,23 @@ export const Nav = styled.nav`
   display: flex;
   font-family: "Helvetica";
   font-weight: bold;
-  font-size: 1.4em;
-  height: 100px;
+  font-size: ${props => props.fontSize};
+  height: ${props => props.height};
   justify-content: center;
   padding: 25px 80px;
   width: 100%;
   transition: all 0.3s;
   box-shadow: 0 1px 3px rgba(50, 50, 50, 0.6);
+
 `;
 
 export const NavMenu = styled.div`
   display: flex;
   align-items: center;
   margin-right: -24px;
+`;
+
+export const Logo = styled.img`
+  padding-right: 100px;
+  height: ${props => props.height};
 `;
