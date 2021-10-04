@@ -1,32 +1,28 @@
 import React from 'react'
 
-import { HiOutlineMail, HiPhone } from "react-icons/hi";
-import { SiGooglemaps } from 'react-icons/si'
-
-import classes from './Footer.module.css';
-
 import logo from '../../assets/image/logo2.png';
 
+import { EMail, Phone, Maps, Widget, Logo } from './FooterStyles'
 
 const Address = () => {
 
   return (
-    <div div className={classes.column} >
-      <img src={logo} className={classes.logo} alt='' />
-      <ul className={classes.widget}>
+    <div>
+      <Logo src={logo} alt='' />
+      <Widget>
         <li>
-          <SiGooglemaps className={classes.icon} />
+          <Maps />
           <span>Ul.Cicha 1<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;11-111 Grzdów-Zdrój</span>
         </li>
         <li>
-          <HiPhone className={classes.icon} />
+          <Phone />
           <span>+48 121 212 121 </span>
         </li>
         <li>
-          <HiOutlineMail className={classes.icon} />
+          <EMail />
           <span>E-mail: usg@usg.pl</span>
         </li>
-      </ul>
+      </Widget>
     </div>
 
   )

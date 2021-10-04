@@ -1,6 +1,8 @@
 import React from 'react';
 import { Switch, Route } from "react-router-dom";
 
+import StartPageTop from './assets/helper/StartPageTop';
+
 import MainSection from './components/MainSection/MainSection';
 import GabinetUSG from "./components/MainSection/GabinetUSG/GabinetUSG";
 import KimJestesmy from "./components/MainSection/KimJestesmy/KimJestesmy";
@@ -30,14 +32,16 @@ const RouteWithWrapper = (props) => {
 const App = () => {
   return (
     <div className="App">
-      <Navbar />
-      <Switch>
-        <RouteWithWrapper path="/gabinet-usg" component={GabinetUSG} bg={bgAll} title="GABINET USG" />
-        <RouteWithWrapper path="/kim-jestesmy" component={KimJestesmy} bg={bgAll} title="KIM JESTEŚMY" />,
-        <RouteWithWrapper path="/galery" component={Galeria} bg={bgAll} title="GALERIA" />
-        <RouteWithWrapper path="/contact" component={Contact} bg={bgAll} title="KONTAKT" />
-        <RouteWithWrapper path="/" exact component={MainSection} bg={bgMain} title={""} />
-      </Switch>
+      <StartPageTop>
+        <Navbar />
+        <Switch>
+          <RouteWithWrapper path="/gabinet-usg" component={GabinetUSG} bg={bgAll} title="GABINET USG" />
+          <RouteWithWrapper path="/kim-jestesmy" component={KimJestesmy} bg={bgAll} title="KIM JESTEŚMY" />,
+          <RouteWithWrapper path="/galery" component={Galeria} bg={bgAll} title="GALERIA" />
+          <RouteWithWrapper path="/contact" component={Contact} bg={bgAll} title="KONTAKT" />
+          <RouteWithWrapper path="/" exact component={MainSection} bg={bgMain} title={""} />
+        </Switch>
+      </StartPageTop>
     </div>
   );
 }

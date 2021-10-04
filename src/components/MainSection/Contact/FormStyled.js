@@ -21,7 +21,7 @@ export const Styles = styled.div`
     flex-direction: column;
     justify-content: space-around;
     margin: 0 auto;
-    max-width: 700px;
+    max-width: 900px;
     padding: 30px 50px;
   }
  
@@ -46,6 +46,7 @@ export const Styles = styled.div`
 
   p {
     color: red;
+    font-size: 18px;
   }
  
   .submitButton {
@@ -54,6 +55,12 @@ export const Styles = styled.div`
     font-family: sans-serif;
     font-size: 14px;
     margin: 20px 0px;
+`;
+
+export const Icon = styled.div`
+  display:flex;
+  flex-direction:row;    
+  color: red;
 `;
 
 export const FlexColumn = styled.div`
@@ -65,7 +72,8 @@ export const FlexColumn = styled.div`
 export const FlexRow = styled.div`
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
   
   div:nth-child(4n+1){
     padding-right: 10px;
@@ -76,4 +84,10 @@ export const FlexRow = styled.div`
     padding-left: 10px;
     width: 70%;
   }
+`;
+
+export const Errors = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 `;

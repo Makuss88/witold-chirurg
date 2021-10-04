@@ -6,18 +6,20 @@ export const NavLink = styled(Link)`
   display: flex;
   align-items: center;
   text-decoration: none;
-  padding: 0 1rem;
+  padding: 0 15px;
   height: 100%;
   cursor: pointer;
 
   &.active {
-    color: #15cdfc;
+    background-color: #15cdfc;
+    color: white;
+    border-radius: 10%;
   }
   
   &:hover {
-    background-color: #15cdfc;;
+    background-color: #15cdfc;
     color: white;
-    border-radius: 8%;
+    border-radius: 10%;
   }
 `;
 
@@ -31,7 +33,7 @@ export const MenuSeparator = styled.li`
 `;
 
 export const NavStyles = styled.div`
-  background: ${props => props.bg};;
+  background: ${({ bg }) => bg};
   position: fixed;
   top: 0;
   left: 0;
@@ -39,14 +41,13 @@ export const NavStyles = styled.div`
   display: flex;
   font-family: "Helvetica";
   font-weight: bold;
-  font-size: ${props => props.fontSize};
-  height: ${props => props.height};
+  font-size: ${({ fontSize }) => fontSize};
+  height: ${({ height }) => height};
   justify-content: center;
   padding: 25px 80px;
   width: 100%;
   transition: all 0.3s;
   box-shadow: 0 1px 3px rgba(50, 50, 50, 0.6);
-
 `;
 
 export const NavMenu = styled.div`

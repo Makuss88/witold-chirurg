@@ -7,8 +7,6 @@ import {
   Logo
 } from "./NavbarElements";
 
-import classes from './Navbar.module.css'
-
 import logo from '../../assets/image/logo2.png';
 
 const Navbar = () => {

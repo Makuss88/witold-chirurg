@@ -3,12 +3,15 @@ import MyMap from "./Maps";
 import Address from './Address';
 import ScrollToTop from '../../../assets/helper/ScrollToTop';
 
-const Contact = () => (
-  <div>
-    <ScrollToTop />
-    <MyMap />
-    <Address />
-  </div>
-)
+const Contact = () => {
+
+  return (
+    <>
+      <ScrollToTop />
+      <MyMap />
+      <Address />
+    </>
+  )
+}
 
 export default Contact;
