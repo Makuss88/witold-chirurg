@@ -12,11 +12,11 @@ export const Container = styled.div`
 `;
 
 export const Information = styled.div`
-  padding-bottom: 60px;
+  padding-bottom: 20px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  align-items: center;
+  align-items: flex-start;
 `;
 
 export const Info = styled.div`

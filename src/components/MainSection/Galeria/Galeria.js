@@ -1,12 +1,15 @@
 import React from 'react'
+import {Wrapper} from './GaleriaStyled';
 
-import ChangeImage from '../ChangeImage/ChangeImage';
+import HowWeWork from './HowWeWork';
+
+import ChangeImage from './ChangeImage/ChangeImage';
 const Galeria = () => {
   return (
-    <div>
-      <div> Nasze miejsca do pracy </div>
+    <Wrapper>
+      <HowWeWork />
       <ChangeImage />
-    </div>
+    </Wrapper>
   )
 }
 
