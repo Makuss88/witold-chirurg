@@ -10,11 +10,7 @@ import img5 from '../../../../assets/image/img5.jpg';
 
 export const CarouselImages = styled(Carousel)`
   border: 2px solid blue;
-  .thumbnails {
-    justify-content: center;
-  }
 `;
-
 
 const DATA = [{
   image: img1,
@@ -41,6 +37,7 @@ const DATA = [{
 const captionStyle = {
   fontSize: '2em',
   fontWeight: 'bold',
+  color: "black",
 }
 const slideNumberStyle = {
   fontSize: '20px',

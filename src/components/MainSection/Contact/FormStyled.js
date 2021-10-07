@@ -55,6 +55,7 @@ export const Styles = styled.div`
     font-family: sans-serif;
     font-size: 14px;
     margin: 20px 0px;
+  }
 `;
 
 export const Icon = styled.div`

@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { TextMain, Text } from './GaleriaStyled';
+import { TextMain, Text } from '../../../assets/helper/Styled'
 
 const HowWeWork = () => {
   return (

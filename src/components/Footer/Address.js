@@ -1,27 +1,31 @@
-import React from 'react'
+import React from 'react';
 
 import logo from '../../assets/image/logo2.png';
+import { FlexColumn } from '../MainSection/Contact/FormStyled';
 
-import { EMail, Phone, Maps, Widget, Logo } from './FooterStyles'
+import { EMail, Phone, Maps, Widget, Logo, WrapperIcon } from './FooterStyles';
 
 const Address = () => {
 
   return (
     <div>
-      <Logo src={logo} alt='' />
+      <Logo src={logo} alt='logo' />
       <Widget>
-        <li>
+        <WrapperIcon>
           <Maps />
-          <span>Ul.Cicha 1<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;11-111 Grzdów-Zdrój</span>
-        </li>
-        <li>
+          <FlexColumn>
+            <span>Ul.Cicha 1</span>
+            <span>11-111 Grzdów-Zdrój</span>
+          </FlexColumn>
+        </WrapperIcon>
+        <WrapperIcon>
           <Phone />
           <span>+48 121 212 121 </span>
-        </li>
-        <li>
+        </WrapperIcon>
+        <WrapperIcon>
           <EMail />
           <span>E-mail: usg@usg.pl</span>
-        </li>
+        </WrapperIcon>
       </Widget>
     </div>
 

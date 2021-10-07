@@ -1,7 +1,7 @@
 import React from "react";
 
 import ScrollToTop from '../../../assets/helper/ScrollToTop';
-import gabinet from '../../../assets/image/gabinet2.jpg'
+import gabinet from '../../../assets/image/gabinet2.jpg';
 
 import HealthComponent from "./HealthComponent";
 
