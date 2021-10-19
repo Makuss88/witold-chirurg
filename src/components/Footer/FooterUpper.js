@@ -1,6 +1,5 @@
 import React from "react";
 
-// import { Maps } from "./Maps";
 import Address from "./Address";
 
 import PolandMaps from "./PolandMaps";

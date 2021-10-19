@@ -7,7 +7,7 @@ import {
   Logo
 } from "./NavbarElements";
 
-import logo from '../../assets/image/logo2.png';
+import logo from '../../../assets/image/logo2.png';
 
 const Navbar = () => {
 

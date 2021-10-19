@@ -2,7 +2,7 @@ import { NavLink as Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 export const NavLink = styled(Link)`
-  color: black;
+  color: #002340;
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -11,13 +11,13 @@ export const NavLink = styled(Link)`
   cursor: pointer;
 
   &.active {
-    background-color: #15cdfc;
+    background-color: #002340;
     color: white;
     border-radius: 10%;
   }
   
   &:hover {
-    background-color: #15cdfc;
+    background-color: #002340;
     color: white;
     border-radius: 10%;
   }

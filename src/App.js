@@ -3,13 +3,13 @@ import { Switch, Route } from "react-router-dom";
 
 import StartPageTop from './assets/helper/StartPageTop';
 
-import MainSection from './components/MainSection/MainSection';
-import GabinetUSG from "./components/MainSection/GabinetUSG/GabinetUSG";
-import KimJestesmy from "./components/MainSection/KimJestesmy/KimJestesmy";
-import Galeria from './components/MainSection/Galeria/Galeria';
-import Contact from "./components/MainSection/Contact/Contact";
+import MainSection from './components/Pages/MainSection/MainSection';
+import GabinetUSG from "./components/Pages/GabinetUSG/GabinetUSG";
+import KimJestesmy from "./components/Pages/KimJestesmy/KimJestesmy";
+import Galeria from './components/Pages/Galeria/Galeria';
+import Contact from "./components/Pages/Contact/Contact";
 import Footer from "./components/Footer/Footer";
-import Navbar from './components/Navbar/Navbar';
+import Navbar from './components/Pages/Navbar/Navbar';
 import ImageBG from './assets/helper/ImageBG';
 
 import bgMain from './assets/image/bg.jpg';

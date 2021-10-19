@@ -1,9 +1,0 @@
-.MainSection {
-  min-height: 80vh;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(20px + 2vmin);
-}

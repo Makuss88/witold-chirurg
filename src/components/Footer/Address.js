@@ -1,7 +1,7 @@
 import React from 'react';
 
 import logo from '../../assets/image/logo2.png';
-import { FlexColumn } from '../MainSection/Contact/FormStyled';
+import { FlexColumn } from '../Pages/Contact/FormStyled';
 
 import { EMail, Phone, Maps, Widget, Logo, WrapperIcon } from './FooterStyles';
 
