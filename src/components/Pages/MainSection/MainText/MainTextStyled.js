@@ -29,7 +29,7 @@ export const Img = styled.div`
 
 export const DivPhoto = styled.div`
   margin: 150px auto 50px;
-  background: #fafafa;
+  background: #e3e3e3;
   width: 1200px;
   height: 400px;
   `;
@@ -54,7 +54,7 @@ export const TextImg = styled.div`
   &:before {
     position:relative;
     content: "";
-    border-bottom: 400px solid #fafafa;;
+    border-bottom: 400px solid #e3e3e3;;
     border-left: 250px solid transparent;
     top: -20px;
     left: -435px;
