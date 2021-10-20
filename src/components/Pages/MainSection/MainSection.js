@@ -4,6 +4,8 @@ import { Wrapper } from "../../../assets/helper/Styled";
 import MainText from './MainText/MainText';
 import ScrollToTop from "../../../assets/helper/ScrollToTop";
 import Contact from './Contact/Contact';
+import Referencje from './Referencje/Referencje';
+import AnotherCompany from './AnotherCompany/AnotherCompany';
 
 
 const MainSection = () => {
@@ -12,7 +14,8 @@ const MainSection = () => {
       <ScrollToTop />
       <MainText />
       <Contact />
-      referencje
+      <Referencje />
+      <AnotherCompany />
     </Wrapper >
   )
 }

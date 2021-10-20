@@ -8,7 +8,7 @@ export const Wrapper = styled.div`
 
 export const Text = styled.p`
   color: white;
-  margin: 50px auto;
+  margin: 100px auto;
   padding: 10px;
   background-image: url(${img1});
   background-repeat: no-repeat;
@@ -28,7 +28,7 @@ export const H2 = styled.h2`
 
 export const NavLink = styled(Link)`
 	background: #ed3330;
-  margin-top: 50px;
+  margin-top: 80px;
 	color: #fff !important;
   font-size: 20px;
 	text-decoration: none;

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import logo from '../../assets/image/logo2.png';
+import logo from '../../assets/image/logoGabinetu.png';
 import { FlexColumn } from '../Pages/Contact/FormStyled';
 
 import { EMail, Phone, Maps, Widget, Logo, WrapperIcon } from './FooterStyles';

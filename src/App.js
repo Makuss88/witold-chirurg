@@ -8,6 +8,7 @@ import GabinetUSG from "./components/Pages/GabinetUSG/GabinetUSG";
 import KimJestesmy from "./components/Pages/KimJestesmy/KimJestesmy";
 import Galeria from './components/Pages/Galeria/Galeria';
 import Contact from "./components/Pages/Contact/Contact";
+import Company from "./components/Pages/Company/Company";
 import Footer from "./components/Footer/Footer";
 import Navbar from './components/Pages/Navbar/Navbar';
 import ImageBG from './assets/helper/ImageBG';
@@ -39,6 +40,7 @@ const App = () => {
           <RouteWithWrapper path="/kim-jestesmy" component={KimJestesmy} bg={bgAll} title="KIM JESTEŚMY" />,
           <RouteWithWrapper path="/galery" component={Galeria} bg={bgAll} title="GALERIA" />
           <RouteWithWrapper path="/contact" component={Contact} bg={bgAll} title="KONTAKT" />
+          <RouteWithWrapper path="/company" component={Company} bg={bgAll} title="INNE FIRMY" />
           <RouteWithWrapper path="/" exact component={MainSection} bg={bgMain} title={""} />
         </Switch>
       </StartPageTop>
