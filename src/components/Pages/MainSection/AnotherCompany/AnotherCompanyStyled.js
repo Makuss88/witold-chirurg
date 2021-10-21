@@ -26,8 +26,9 @@ export const Animation = styled(Link)`
 `;
 
 export const Wrapper = styled.div`
+  padding: 40px;
   width: 100%;
-  background: rgba(0, 0, 0, 0.2);
+  background: #e3e3e3;
 `;
 
 export const Gallery = styled.div`
@@ -38,10 +39,10 @@ export const Gallery = styled.div`
 
 export const Img = styled.img`
   width: 300px;
-  filter: grayscale(1);
+  filter: grayscale(0.99);
   transition: all 0.5s ease-in-out;
 
   &:hover{
-    filter: grayscale(0);
+    filter: grayscale(0.01);
   }
 `;

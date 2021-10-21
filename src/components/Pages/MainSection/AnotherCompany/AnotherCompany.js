@@ -17,10 +17,10 @@ const AnotherCompany = () => {
       <Animation to="/company" exact> Zobacz więcej firm </Animation >
       <Gallery>
         <Img src={img1} alt='think' />
-        <Img src={img2} alt='adidas' />
-        <Img src={img3} alt='adidas' />
-        <Img src={img4} alt='adidas' />
-        <Img src={img5} alt='adidas' />
+        <Img src={img2} alt='tuti' />
+        <Img src={img3} style={{ height: "100px", margin: 'auto 0' }} alt='rumble' />
+        <Img src={img4} alt='starbucks' />
+        <Img src={img5} alt='kulbu' />
       </Gallery>
     </Wrapper>
   )
