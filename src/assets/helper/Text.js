@@ -20,3 +20,5 @@ export const personsInfo = [
     text: "Najlepsza pielęgniarka na naszym USG",
   }
 ];
+
+export const BASE_URL = "https://swapi.dev/api/films/";

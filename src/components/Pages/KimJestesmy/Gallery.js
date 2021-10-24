@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { personsInfo } from '../../../assets/helper/TextPerson';
+import { personsInfo } from '../../../assets/helper/Text';
 
 // import classes from './Gallery.module.css';
 
