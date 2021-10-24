@@ -5,8 +5,8 @@ import { Link } from 'react-router-dom';
 
 export const Animation = styled(Link)`
   color: #be1e2d;
-  text-decoration: none ;
-  text-transform: uppercase;;
+  text-decoration: none;
+  text-transform: uppercase;
   font-size: 24px;
   
   &:after { 
@@ -14,7 +14,7 @@ export const Animation = styled(Link)`
     top: 1px;
     content: "\u27BC";
     font-size: 28px;
-    transition: all 0.5s;
+    transition: margin-left 0.8s ease;
   }
   
   &:hover {
@@ -40,7 +40,7 @@ export const Gallery = styled.div`
 export const Img = styled.img`
   width: 300px;
   filter: grayscale(0.99);
-  transition: all 0.5s ease-in-out;
+  transition: filter 0.5s ease-in-out;
 
   &:hover{
     filter: grayscale(0.01);

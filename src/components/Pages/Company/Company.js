@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+import axios from "axios";
 
 import img1 from '../../../assets/image/logo/logo1.png';
 import img2 from '../../../assets/image/logo/logo2.png';
@@ -17,7 +18,30 @@ import img13 from '../../../assets/image/logo/logo13.png';
 import { Flex, Section, Img } from './CompanyStyled';
 import ScrollToTop from '../../../assets/helper/ScrollToTop';
 
+import MoviesList from './MoviesList';
+
+const base = "https://swapi.dev/api/films/"
+
+
 const Company = () => {
+
+
+  const [post, setPost] = useState([]);
+
+  async function fetchMoviesHandlers() { // założyłem async i away
+    const response = await axios.get(base);
+    const data = await response.data.results;
+    const transform = data.map(movieData => {
+      return {
+        id: movieData.episode_id,
+        title: movieData.title,
+        openingText: movieData.opening_crawl,
+        releaseDate: movieData.release_date,
+      };
+    });
+    setPost(transform);
+  }
+
   return (
     <>
       <ScrollToTop />
@@ -40,6 +64,11 @@ const Company = () => {
           <Img src={img12} alt='' />
           <Img src={img13} alt='' />
         </Flex>
+
+        oraz inne zwierzęta
+        <button onClick={fetchMoviesHandlers}> KLIKNIJ MNIE! </button>
+        {console.log(post)}
+        <MoviesList movies={post} />
       </Section>
     </>
   )
