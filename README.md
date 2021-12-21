@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-> SAP about medicine. 
+> Web about medicine. 
 
 ## How to run the project?
 
