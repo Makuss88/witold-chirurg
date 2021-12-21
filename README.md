@@ -6,7 +6,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## How to run the project?
 
-Clone repository and run
+Go into [link](https://witoldusg.web.app/), or
+
+clone repository and run
 
 `npm install`
 
